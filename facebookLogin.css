@@ -1,0 +1,94 @@
+
+.main{
+    justify-content: space-between;
+}
+.login-card{
+    
+    background:white;
+    height: 260px;
+    width: 300px;
+    padding: 50px ;
+    margin-right: 200px;
+    margin-top: 100px;
+    border-radius: 8px;
+    
+    }
+.login-card input{
+    
+    display: flex;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border: .5px solid silver;
+    padding: 0 10px;
+}
+.primary{
+    background : #1877f2;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 106%;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    border: .5px solid grey;
+}
+.primary:hover{
+    background: blue;
+}
+.secondary{
+    background : yellowgreen;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 106%;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    border: .5px solid grey;
+}
+.secondary:hover{
+    background: green;
+}
+.login-card input:last-child{
+    background:none;
+    color: white;
+
+}
+.login-card span a{
+    color:#1877f2;
+    text-align: center;
+    margin: 80px;
+    text-decoration: none;
+   
+}
+hr{
+    margin-top: 20px;
+}
+.icon-text{
+    width: 45%;  
+    height: 45px;
+    /* margin-top: 100px;
+    margin-left: 20px; */
+}.icon-text div{
+   
+    height: 20px;
+    width: 80%;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.fblogo{
+    height: 75px;
+    margin-top: 190px;
+    margin-left: 160px
+
+}
+body{
+    background: whitesmoke;
+}
+.flex{
+    display: flex;
+}
